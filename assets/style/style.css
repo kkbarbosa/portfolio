@@ -1,0 +1,87 @@
+main {
+    color: black;
+}
+
+header {
+    color: black;
+}
+
+nav {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000; 
+    transform: scale(1.1); 
+}
+
+/*Tela Pequena*/
+
+.navbar-toggler {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1);
+}
+
+/*Tela Pequena*/
+
+.btn-success {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-danger {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.tema-escuro {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.tema-escuro .navbar {
+    background-color: #333;
+}
+
+.button {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 45px;
+    box-shadow: #000000;
+    cursor: pointer;
+    background-color: beige;
+}
+
+.ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    border-radius: 50%;
+    height: 100%;
+    background-color: bisque;
+    transition: left;
+}
+
+.ball-move {
+    left: calc()
+}
+
